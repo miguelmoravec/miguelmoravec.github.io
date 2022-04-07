@@ -1,6 +1,6 @@
 baseurl = "https://miguelmoravec.com/"
 metaDataFormat = "yaml"
-title = "Blist Multilingual Theme"
+title = "Miguel Moravec's Website"
 theme = "blist"
 
 DefaultContentLanguage = "en"
@@ -38,14 +38,14 @@ DefaultContentLanguageInSubdir = true
   [languages.de]
     contentDir = "content/de" # Deutsch
     weight = 2
-    languageName = "Coming Soon"
+    languageName = ""
     title = "Blist (mehrsprachig)"
     description = "Modernes Blog-Theme für Ihre Hugo-Site."
     [languages.de.params]
-      introTitle = "Hallo, ich bin Katheryn Fox"
+      introTitle = "Hallo, ich bin Miguel Moravec"
       introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
-      introPhoto = "/picture.jpg"
-      logo = "/blist-logo-de.png"
+      introPhoto = "/chair_cropped.JPG"
+      logo = "/miguel_logo.png"
     [[languages.de.menu.main]]
         name = "Blog"
         url = "blog"
