@@ -2,242 +2,135 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://miguelmoravec.github.io/en/page/about/</loc>
+    <loc>https://miguelmoravec.com/en/tags/activism/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/blog/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/gsc/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/tags/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/page/about/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://miguelmoravec.github.io/de/page/about/"
+                href="https://miguelmoravec.com/de/page/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://miguelmoravec.github.io/en/page/about/"
+                href="https://miguelmoravec.com/en/page/about/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.github.io/en/</loc>
+    <loc>https://miguelmoravec.com/en/page/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://miguelmoravec.github.io/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="dy"
-                href="https://miguelmoravec.github.io/dy/"
+                href="https://miguelmoravec.com/de/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://miguelmoravec.github.io/en/"
+                href="https://miguelmoravec.com/en/page/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.github.io/en/blog/</loc>
+    <loc>https://miguelmoravec.com/en/blog/doresdivest/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/blog/"
-                />
   </url><url>
-    <loc>https://miguelmoravec.github.io/en/tags/emoji/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/tags/emoji/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/blog/emoji-support/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/blog/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/blog/emoji-support/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/page/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/page/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/tags/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="dy"
-                href="https://miguelmoravec.github.io/dy/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/tags/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/tags/css/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/tags/css/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/tags/html/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/tags/html/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/tags/markdown/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/tags/markdown/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/blog/markdown-syntax/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/blog/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/blog/markdown-syntax/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/blog/math-typesetting/</loc>
+    <loc>https://miguelmoravec.com/en/blog/stemseas2/</loc>
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://miguelmoravec.github.io/en/blog/placeholder-text/</loc>
+    <loc>https://miguelmoravec.com/en/blog/princeton/</loc>
+    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/css/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://miguelmoravec.github.io/de/blog/placeholder-text/"
+                href="https://miguelmoravec.com/de/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://miguelmoravec.github.io/en/blog/placeholder-text/"
+                href="https://miguelmoravec.com/en/tags/css/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.github.io/en/tags/privacy/</loc>
+    <loc>https://miguelmoravec.com/en/tags/html/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://miguelmoravec.github.io/de/tags/privacy/"
+                href="https://miguelmoravec.com/de/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://miguelmoravec.github.io/en/tags/privacy/"
+                href="https://miguelmoravec.com/en/tags/html/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.github.io/en/blog/rich-content/</loc>
+    <loc>https://miguelmoravec.com/en/tags/markdown/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://miguelmoravec.github.io/de/blog/rich-content/"
+                href="https://miguelmoravec.com/de/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://miguelmoravec.github.io/en/blog/rich-content/"
+                href="https://miguelmoravec.com/en/tags/markdown/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.github.io/en/tags/shortcodes/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <loc>https://miguelmoravec.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://miguelmoravec.github.io/de/tags/shortcodes/"
+                href="https://miguelmoravec.com/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://miguelmoravec.github.io/en/tags/shortcodes/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/tags/text/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/tags/text/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/tags/text/"
-                />
-  </url><url>
-    <loc>https://miguelmoravec.github.io/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.github.io/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="dy"
-                href="https://miguelmoravec.github.io/dy/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.github.io/en/categories/"
+                href="https://miguelmoravec.com/en/categories/"
                 />
   </url>
 </urlset>
