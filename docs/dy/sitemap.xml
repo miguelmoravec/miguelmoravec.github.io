@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://miguelmoravec.com/dy/</loc>
+    <loc>https://miguelmoravec.github.io/dy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://miguelmoravec.com/en/"
+                href="https://miguelmoravec.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://miguelmoravec.com/de/"
+                href="https://miguelmoravec.github.io/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="dy"
-                href="https://miguelmoravec.com/dy/"
+                href="https://miguelmoravec.github.io/dy/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.com/dy/categories/</loc>
+    <loc>https://miguelmoravec.github.io/dy/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://miguelmoravec.com/en/categories/"
+                href="https://miguelmoravec.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://miguelmoravec.com/de/categories/"
+                href="https://miguelmoravec.github.io/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="dy"
-                href="https://miguelmoravec.com/dy/categories/"
+                href="https://miguelmoravec.github.io/dy/categories/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.com/dy/tags/</loc>
+    <loc>https://miguelmoravec.github.io/dy/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://miguelmoravec.com/en/tags/"
+                href="https://miguelmoravec.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://miguelmoravec.com/de/tags/"
+                href="https://miguelmoravec.github.io/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="dy"
-                href="https://miguelmoravec.com/dy/tags/"
+                href="https://miguelmoravec.github.io/dy/tags/"
                 />
   </url>
 </urlset>
