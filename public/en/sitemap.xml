@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://miguelmoravec.com/en/</loc>
-    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.com/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.com/en/"
-                />
-  </url><url>
     <loc>https://miguelmoravec.com/en/blog/</loc>
     <lastmod>2022-04-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -30,6 +17,19 @@
   </url><url>
     <loc>https://miguelmoravec.com/en/blog/gsc/</loc>
     <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/"
+                />
   </url><url>
     <loc>https://miguelmoravec.com/en/tags/student-government/</loc>
     <lastmod>2022-04-06T00:00:00+00:00</lastmod>
@@ -87,6 +87,9 @@
   </url><url>
     <loc>https://miguelmoravec.com/en/tags/research/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/pipeline/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/categories/</loc>
     <xhtml:link

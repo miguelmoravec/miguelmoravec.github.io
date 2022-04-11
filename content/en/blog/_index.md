@@ -1,4 +1,4 @@
 ---
-author: Katheryn Fox
+author: Miguel Moravec
 title: Blog
 ---

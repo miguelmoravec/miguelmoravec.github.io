@@ -12,9 +12,9 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Miguel Moravec"
-      introSubtitle = "VP Graduate Student Council | Climate and Energy Researcher | Avid sailor "
+      introSubtitle = "VP Graduate Student Council | Climate and Energy Researcher | Avid Offshore Sailor "
       introPhoto = "/chair_cropped.JPG"
-      logo = "/miguel_logo.png"
+      logo = "/miguel_logo2.png"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -38,7 +38,7 @@ DefaultContentLanguageInSubdir = true
   [languages.de]
     contentDir = "content/de" # Deutsch
     weight = 2
-    languageName = ""
+    languageName = "."
     title = "Blist (mehrsprachig)"
     description = "Modernes Blog-Theme für Ihre Hugo-Site."
     [languages.de.params]
@@ -71,7 +71,7 @@ DefaultContentLanguageInSubdir = true
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Miguel Moravec · All rights reserved"
+  copyright = "Copyright © 2022 - Miguel Moravec · All rights reserved"
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
