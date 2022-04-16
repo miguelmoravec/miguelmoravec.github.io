@@ -1,0 +1,111 @@
+baseurl = "https://miguelmoravec.com/"
+metaDataFormat = "yaml"
+title = "Miguel Moravec's Website"
+theme = "blist"
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = "content/en" #English
+    weight = 1
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Hey! I'm Miguel Moravec"
+      introSubtitle = "VP Graduate Student Council | Climate and Energy Researcher | Avid Offshore Sailor "
+      introPhoto = "/chair_cropped.JPG"
+      logo = "/miguel_logo2.png"
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    #[[languages.en.menu.main]]
+    #    name = "About"
+    #    url = "page/about/"
+    #    weight = 2
+
+    #[[languages.en.menu.main]]
+    #    name = "Tags"
+    #    url = "tags"
+    #    weight = 3
+
+    [[languages.en.menu.main]]
+        name = "GSC Platform"
+        url = "/en/blog/gsc/"
+        weight = 4
+
+  [languages.de]
+    contentDir = "content/de" # Deutsch
+    weight = 2
+    languageName = "."
+    title = "Blist (mehrsprachig)"
+    description = "Modernes Blog-Theme für Ihre Hugo-Site."
+    [languages.de.params]
+      introTitle = "Hallo, ich bin Miguel Moravec"
+      introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
+      introPhoto = "/chair_cropped.JPG"
+      logo = "/miguel_logo.png"
+    [[languages.de.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.de.menu.main]]
+        name = "Über mich"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.de.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+ 
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
+
+  # Custom copyright - optional
+  copyright = "Copyright © 2022 - Miguel Moravec · All rights reserved"
+  favicon = "/favicon.svg"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-blue-100"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+[params.homepage.social]
+  # Global params xommon for both languages
+  title = "Let's connect"
+  description = "Check out my social media"
+  twitter = "https://twitter.com/MiguelMoravec"
+  linkedin = "https://www.linkedin.com/in/miguel-moravec-321a75ab/"
+  github = "https://github.com/miguelmoravec"
+  instagram = "https://www.instagram.com/mi6uelito/"
+
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
