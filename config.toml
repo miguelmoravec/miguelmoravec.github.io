@@ -19,6 +19,11 @@ DefaultContentLanguageInSubdir = true
         name = "Blog"
         url = "blog"
         weight = 1
+		
+	[[languages.en.menu.main]]
+        name = "Resume"
+        url = "Moravec_CV_2022.pdf"
+        weight = 2
 
     #[[languages.en.menu.main]]
     #    name = "About"

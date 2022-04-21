@@ -1,13 +1,15 @@
 ---
 author: "Miguel Moravec"
 title: "GSC Platform"
-date: 2022-04-06
+date: 2022-04-16
 description: "Why I'd like to be your next GSC president!"
 tags: ["Student Government"]
 thumbnail: "/arms_cropped_2.JPG"
 ---
 
-Hey all! I'm running to serve as your GSC President for the 2022 academic year. This page is organized as follows:
+UPDATE: Thanks for electing me to be your GSC President! Read on to see some of the issues we'll be taking on together next year.
+
+This page is organized as follows:
 
 1) Platform Summary
 2) About Me
@@ -115,4 +117,4 @@ In addition to concerns brought forward by the department reps, I propose that o
 Have an issue that's important to you that I missed?
 [Email me](mailto:miguel.moravec@vanderbilt.edu) today with your ideas!
 
-## Thanks for reading and vote Moravec for GSC President!
+## Thanks for reading and I'm looking forward to serving as your GSC President!
