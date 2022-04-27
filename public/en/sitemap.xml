@@ -63,6 +63,32 @@
     <loc>https://miguelmoravec.com/en/tags/activism/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://miguelmoravec.com/en/tags/emoji/</loc>
+    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/tags/emoji/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/tags/emoji/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/emoji-support/</loc>
+    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/blog/emoji-support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/blog/emoji-support/"
+                />
+  </url><url>
     <loc>https://miguelmoravec.com/en/page/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -79,14 +105,134 @@
     <loc>https://miguelmoravec.com/en/blog/doresdivest/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://miguelmoravec.com/en/tags/css/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/tags/css/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/tags/css/"
+                />
+  </url><url>
     <loc>https://miguelmoravec.com/en/blog/stemseas2/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/html/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/tags/html/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/tags/html/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/markdown/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/tags/markdown/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/markdown-syntax/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/blog/markdown-syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/blog/markdown-syntax/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/math-typesetting/</loc>
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/blog/princeton/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://miguelmoravec.com/en/blog/placeholder-text/</loc>
+    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/blog/placeholder-text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/blog/placeholder-text/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/privacy/</loc>
+    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/tags/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/tags/privacy/"
+                />
+  </url><url>
     <loc>https://miguelmoravec.com/en/tags/research/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/rich-content/</loc>
+    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/blog/rich-content/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/blog/rich-content/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/shortcodes/</loc>
+    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/tags/shortcodes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/tags/shortcodes/"
+                />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/text/</loc>
+    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://miguelmoravec.com/de/tags/text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://miguelmoravec.com/en/tags/text/"
+                />
   </url><url>
     <loc>https://miguelmoravec.com/en/blog/pipeline/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
