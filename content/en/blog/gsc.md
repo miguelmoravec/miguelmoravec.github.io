@@ -2,8 +2,8 @@
 author: "Miguel Moravec"
 title: "GSC Platform"
 date: 2022-04-16
-description: "Why I'd like to be your next GSC president!"
-tags: ["Student Government"]
+description: "UPDATE: Thanks for electing me to be your GSC President! See my full platform here"
+tags: ["Student Government"] 
 thumbnail: "/arms_cropped_2.JPG"
 ---
 

@@ -23,18 +23,8 @@ This page is organized as follows:
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://miguelmoravec.com/en/page/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://miguelmoravec.com/en/blog/emoji-support/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://miguelmoravec.com/en/blog/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <description>Hey! I&amp;rsquo;m Miguel, and I&amp;rsquo;m a PhD student in the department of Civil and Environmental Engineering at Vanderbilt University. I&amp;rsquo;m also the President of the Graduate Student Body and the co-founder of Dores Divest, a campus sustainable investments campaign. I grew up sailing in Annapolis, Maryland, but am now pleased to call Nashville home.
+I have a diverse work history in public service, and I&amp;rsquo;d like to continue to employ myself in the pursuit of a more equitable world.</description>
     </item>
     
     <item>
@@ -44,7 +34,7 @@ Hugo makes use of a variety of open source projects including:
       
       <guid>https://miguelmoravec.com/en/blog/doresdivest/</guid>
       <description>Miguel is the co-founder of Dores Divest, a student activist campaign that made international headlines in February 2022 for filing a novel legal complaints regarding Vanderbilt&amp;rsquo;s fossil fuel investments. Learn more here.
-Articles with quotes from Miguel:  Washington Post: Legal Complaint Exclusive Vanderbilt Hustler: Al Gore Endorsement Stanford Daily: Activism Commentary  </description>
+Articles covering our actions0:  Washington Post: Legal Complaint Exclusive CNN: Legal Complaint Coverage Vanderbilt Hustler: Al Gore Endorsement Stanford Daily: Activism Commentary  </description>
     </item>
     
     <item>
@@ -58,24 +48,6 @@ Articles with quotes from Miguel:  Washington Post: Legal Complaint Exclusive Va
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://miguelmoravec.com/en/blog/markdown-syntax/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://miguelmoravec.com/en/blog/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://miguelmoravec.com/en/blog/math-typesetting/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://miguelmoravec.com/en/blog/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Climate Scholar</title>
       <link>https://miguelmoravec.com/en/blog/princeton/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
@@ -83,25 +55,6 @@ Articles with quotes from Miguel:  Washington Post: Legal Complaint Exclusive Va
       <guid>https://miguelmoravec.com/en/blog/princeton/</guid>
       <description>In 2016, Miguel worked with NOAA scientists to analyze climate data, automatically generate relevant figures/plots, and ultimately contribute science to the North-American Multi-Model Ensemble, as hosted by Princeton University&amp;rsquo;s Department of Atmospheric and Oceanic Sciences.
 Check out this newsletter from Princeton University featuring my work here.</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://miguelmoravec.com/en/blog/placeholder-text/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://miguelmoravec.com/en/blog/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://miguelmoravec.com/en/blog/rich-content/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://miguelmoravec.com/en/blog/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
     </item>
     
     <item>
