@@ -4,6 +4,7 @@ title: Graduate Mentor
 date: 2021-07-14
 description: STEMSEAS Teaching Assistantship
 math: true
+tags: ["Leadership"]
 thumbnail: "/boat.PNG"
 ---
 

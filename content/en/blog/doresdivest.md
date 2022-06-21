@@ -3,7 +3,7 @@ author: "Hugo Authors"
 title: "Student Activism"
 date: 2021-07-15
 description: "As featured in the Washington Post and CNN"
-tags: ["Activism"]
+tags: ["Leadership"]
 thumbnail: "/protest.PNG"
 ---
 

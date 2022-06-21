@@ -15,10 +15,10 @@ DefaultContentLanguageInSubdir = true
       introSubtitle = "President, Vanderbilt Graduate Student Council | Climate and Energy Researcher | Avid Offshore Sailor "
       introPhoto = "/chair_cropped.JPG"
       logo = "/miguel_logo2.png"
-    [[languages.en.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 4
+    #[[languages.en.menu.main]]
+    #    name = "Blog"
+    #    url = "blog"
+    #    weight = 4
 		
 	[[languages.en.menu.main]]
         name = "Resume"
@@ -31,9 +31,9 @@ DefaultContentLanguageInSubdir = true
 		weight = 1
 
     #[[languages.en.menu.main]]
-    #    name = "Tags"
+    #    name = "Blog"
     #    url = "tags"
-    #    weight = 3
+    #    weight = 4
 
     [[languages.en.menu.main]]
         name = "GSC Platform"
@@ -77,7 +77,7 @@ DefaultContentLanguageInSubdir = true
 
   # Custom copyright - optional
   copyright = "Copyright © 2022 - Miguel Moravec · All rights reserved"
-  favicon = "/favicon.svg"
+  favicon = "/batman3.png"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors

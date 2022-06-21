@@ -3,7 +3,7 @@ author: "Miguel Moravec"
 title: "GSC Platform"
 date: 2022-04-16
 description: "UPDATE: Thanks for electing me to be your GSC President! See my full platform here"
-tags: ["Student Government"] 
+tags: ["Leadership"] 
 thumbnail: "/arms_cropped_2.JPG"
 ---
 
