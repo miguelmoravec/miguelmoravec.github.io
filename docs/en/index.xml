@@ -68,5 +68,15 @@ Vanderbilt University conducted the research in as part of a case study on resil
 Janey Camp and Craig Philip, both research associate professors of civil and environmental engineering and associate director and director of the Vanderbilt Center for Transportational and Operational Resiliency, respectively, are leading the ongoing research.</description>
     </item>
     
+    <item>
+      <title>Data Visualization Project</title>
+      <link>https://miguelmoravec.com/en/blog/thesis/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/thesis/</guid>
+      <description>The following interactive map was created in R using the Shiny App. It dynamically depicts the increases in the mean, median, and normalized sales price per census tract neighborhood.
+Increase in Median Sales Price in Davidson County, 2013-2016 (%) This map was created as part of my senior honor&amp;rsquo;s thesis at Vanderbilt University. For the project, I extracted over 60,000 real estate transactions from the Nashville Property Assesor&amp;rsquo;s office API using python scripts to make a comprehensive record of all sales in Davidson County between 2013 and 2016.</description>
+    </item>
+    
   </channel>
 </rss>
