@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://miguelmoravec.com/en/blog/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -15,11 +15,14 @@
                 href="https://miguelmoravec.com/en/blog/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.com/en/blog/gsc/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+    <loc>https://miguelmoravec.com/en/tags/data-visualization/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/port_map/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -31,11 +34,11 @@
                 href="https://miguelmoravec.com/en/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.com/en/tags/student-government/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+    <loc>https://miguelmoravec.com/en/tags/research/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/tags/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -46,6 +49,12 @@
                 hreflang="en"
                 href="https://miguelmoravec.com/en/tags/"
                 />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/gsc/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/leadership/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/page/about/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
@@ -60,7 +69,7 @@
                 href="https://miguelmoravec.com/en/page/about/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.com/en/tags/activism/</loc>
+    <loc>https://miguelmoravec.com/en/blog/doresdivest/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/page/</loc>
@@ -76,20 +85,17 @@
                 href="https://miguelmoravec.com/en/page/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.com/en/blog/doresdivest/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://miguelmoravec.com/en/blog/stemseas2/</loc>
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/blog/princeton/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://miguelmoravec.com/en/tags/research/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://miguelmoravec.com/en/blog/pipeline/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/thesis/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/categories/</loc>
     <xhtml:link

@@ -31,13 +31,13 @@ DefaultContentLanguageInSubdir = true
 		weight = 1
 
     #[[languages.en.menu.main]]
-    #    name = "Blog"
+    #    name = "Blog2"
     #    url = "tags"
     #    weight = 4
 
     [[languages.en.menu.main]]
-        name = "GSC Platform"
-        url = "/en/blog/gsc/"
+        name = "Blog"
+        url = "/tags"
         weight = 3
 
   [languages.de]
@@ -99,7 +99,7 @@ DefaultContentLanguageInSubdir = true
 
 [[menu.main]]
   name = "About"
-  url = "/about"
+  url = "/blog"
 
 [build]
   writeStats = true

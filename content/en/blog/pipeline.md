@@ -1,7 +1,7 @@
 ---
 author: "Miguel Moravec"
-title: "Current Research"
-description: "Energy Resilience analysis following Colonial Pipeline shutdown"
+title: "Energy Resilience Research"
+description: "Novel federal/crowd-sourced analysis of Colonial Pipeline shutdown impacts"
 tags: ["Research"]
 date: 2021-07-12
 thumbnail: "/barge.jpg"

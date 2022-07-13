@@ -1,8 +1,8 @@
 ---
 author: "Miguel Moravec"
-title: "Data Visualization Project"
+title: "Geospatial Data Map: Real Estate"
 description: "Senior Honor's Thesis investigating gentrification in Nashville"
-tags: ["Research"]
+tags: ["Research", "Data Visualization"]
 date: 2018-05-01
 thumbnail: "/nash.jpg"
 ---
