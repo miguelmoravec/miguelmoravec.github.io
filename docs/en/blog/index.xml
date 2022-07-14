@@ -28,6 +28,17 @@ This page is organized as follows:
     </item>
     
     <item>
+      <title>Data Science Dashboard: Debris Forecast</title>
+      <link>https://miguelmoravec.com/en/blog/nashzero/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/nashzero/</guid>
+      <description>The following interactive dashboard was created for our client, the Metropolitan Government of Nashville, as part of a team Data Science Institute effort. The dashboard forecasts debris permit and tonnage generation under a range of scenarios.
+
+Click &amp;raquo; here &amp;laquo; to launch dashboard Background Metro Nashville has set a goal to be solid landfill neutral by 2050. As a rapidly growing city, one of the major sources of solid waste is through development (i.</description>
+    </item>
+    
+    <item>
       <title>Climate Activism</title>
       <link>https://miguelmoravec.com/en/blog/doresdivest/</link>
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
@@ -64,9 +75,9 @@ Automatic Post-Processing Output Examples Sea Surface Temperature Anomaly Sea Su
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://miguelmoravec.com/en/blog/pipeline/</guid>
-      <description>A recent study has concluded that cities in middle and eastern Tennessee with access to barged petroleum products suffered less during the May shutdown of the Colonial Pipeline.
-Vanderbilt University conducted the research in as part of a case study on resilience strategies for navigable portions and associated infrastructure of the Cumberland/Tennessee river couplet system.
-Janey Camp and Craig Philip, both research associate professors of civil and environmental engineering and associate director and director of the Vanderbilt Center for Transportational and Operational Resiliency, respectively, are leading the ongoing research.</description>
+      <description>I completed analysis for a study that concluded that cities in middle and eastern Tennessee with access to barged petroleum products suffered less during the May shutdown of the Colonial Pipeline.
+I found a novel relationship between federal waterborne petroleum volumes and crowd sourced Gas buddy station outage data that helped explain how the disruption affected certain southeastern markets.
+My research team and I conducted the research in as part of a case study on resilience strategies for navigable portions and associated infrastructure of the Cumberland/Tennessee river couplet system.</description>
     </item>
     
     <item>
