@@ -100,5 +100,15 @@ My research team and I conducted the research in as part of a case study on resi
 Increase in Median Sales Price in Davidson County, 2013-2016 (%) This map was created as part of my senior honor&amp;rsquo;s thesis at Vanderbilt University. For the project, I extracted over 60,000 real estate transactions from the Nashville Property Assesor&amp;rsquo;s office API using python scripts to make a comprehensive record of all sales in Davidson County between 2013 and 2016.</description>
     </item>
     
+    <item>
+      <title>PNW Energy Community Mapping</title>
+      <link>https://miguelmoravec.com/en/blog/pnw_map/</link>
+      <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/pnw_map/</guid>
+      <description>The following interactive map was created in R using the Leaflet App. It dynamically depicts which census tract neighborhoods in Washington and Oregon are Energy Communities, Tribal Lands, or considered disadvantaged by White House CJEST or DOE DAC metrics.
+Note the purple areas, which indicates neighborhoods that are both energy communities and considered disadvantaged by the federal government. This page contains public data and is available by direct link only.</description>
+    </item>
+    
   </channel>
 </rss>
