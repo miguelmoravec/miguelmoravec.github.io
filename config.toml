@@ -12,7 +12,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Miguel Moravec"
-      introSubtitle = "President, Vanderbilt Graduate Student Council | Climate and Energy Researcher | Avid Offshore Sailor "
+      introSubtitle = "Associate, Rocky Mountain Institute | Climate and Energy Researcher | Avid Offshore Sailor "
       introPhoto = "/chair_cropped.JPG"
       logo = "/miguel_logo2.png"
     #[[languages.en.menu.main]]
