@@ -91,6 +91,16 @@ My research team and I conducted the research in as part of a case study on resi
     </item>
     
     <item>
+      <title>FHWA Emissions Rule Public Comment Mapping</title>
+      <link>https://miguelmoravec.com/en/blog/fhwa_map/</link>
+      <pubDate>Thu, 03 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/fhwa_map/</guid>
+      <description>The following interactive map was created in R using the Leaflet App. It dynamically depicts the location of public comments to the proposed FHWA emissions rule. Each &amp;ldquo;pin&amp;rdquo; includes a link to the submitter&amp;rsquo;s comment and information about the comment.
+Note that comments from individuals are not included due to the lack of public address information. This page contains public data and is available by direct link only.</description>
+    </item>
+    
+    <item>
       <title>PNW Energy Community Mapping</title>
       <link>https://miguelmoravec.com/en/blog/pnw_map/</link>
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
