@@ -3,26 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://miguelmoravec.com/en/blog/</loc>
-    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://miguelmoravec.com/de/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://miguelmoravec.com/en/blog/"
-                />
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://miguelmoravec.com/en/tags/data-visualization/</loc>
-    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+    <loc>https://miguelmoravec.com/en/blog/how_to_climate_policy/</loc>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://miguelmoravec.com/en/blog/port_map/</loc>
-    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+    <loc>https://miguelmoravec.com/en/tags/leadership/</loc>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/</loc>
-    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -34,11 +24,8 @@
                 href="https://miguelmoravec.com/en/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.com/en/tags/research/</loc>
-    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://miguelmoravec.com/en/tags/</loc>
-    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -50,10 +37,16 @@
                 href="https://miguelmoravec.com/en/tags/"
                 />
   </url><url>
-    <loc>https://miguelmoravec.com/en/blog/gsc/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+    <loc>https://miguelmoravec.com/en/tags/data-visualization/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://miguelmoravec.com/en/tags/leadership/</loc>
+    <loc>https://miguelmoravec.com/en/blog/port_map/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/research/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/gsc/</loc>
     <lastmod>2022-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/blog/nashzero/</loc>
@@ -96,6 +89,9 @@
   </url><url>
     <loc>https://miguelmoravec.com/en/blog/pipeline/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/pipeline-copy/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/blog/thesis/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
