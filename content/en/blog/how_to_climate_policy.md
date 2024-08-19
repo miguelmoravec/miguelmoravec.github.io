@@ -4,7 +4,7 @@ title: "How to break into Climate Policy"
 date: 2024-07-31
 description: "4 steps to pivot your career into environmental change making"
 tags: ["Leadership"] 
-thumbnail: "/com_room.png"
+thumbnail: "/com_room2.png"
 ---
 
 
@@ -54,7 +54,7 @@ While I missed the opportunity to be a change-maker in undergrad, I used graduat
 
 ![Change-making](/grad_protest.jpg) 
 
-Having competency is some of these skills is essential – and by the way helps make the world a better place!
+Having competency is some of these skills is essential – the best employees to make the world a better place are those with practice!
 
 If you cannot articulate how you personally have strived to win big change in your community, you will have a hard time making it into policy world.
 
@@ -101,7 +101,7 @@ If you’re not in a position to attend graduate school right now, another strat
 
 This could be consulting, a fortune 500 company, government, or even local advocacy experience.
 
-I was fortunate enough to land a job as a science communicator with the US EPA thanks to an free early government career placement website called Zintellect. You should absolutely upload your resume here if you’re interested at in learning how agencies execute the policies that they’re given by Congress. It’s free to apply, and you will stand out in an interview pool with any three letter agency on your resume.
+I was fortunate enough to land a job as a science communicator with the US EPA thanks to an free early government career placement website called Zintellect. You should absolutely upload your resume here if you’re interested in learning how agencies execute the policies that they’re given by Congress. It’s free to apply, and you will stand out in an interview pool with any three letter agency on your resume.
 
 Note: I’m leaving my own alma-mater, Vanderbilt University, off the list of recommended universities. Other than my roommate, I’ve never met anyone from Vandy in DC climate policy world. Even then, my roommate got his foot in the door not due to Vandy, but rather due to a special internship program that Duke University offers to its masters students. 
 
@@ -126,5 +126,6 @@ Obviously, I’ll reiterate that the federal government is a great place to work
 ## Conclusion
 
 Well there you have it, with just these four steps, you can rebrand your skillset significantly to be more appealing to climate policy groups! I hope my blog has been helpful – feel free to reach out on LinkedIn with any questions you may have.
+
 Last and most importantly, don’t give up! It’s so worth the wait to wake up to a job you enjoy – be patient, be relentless, and you’ll make it here too eventually. 
 
