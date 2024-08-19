@@ -12,7 +12,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Miguel Moravec"
-      introSubtitle = "Associate, Rocky Mountain Institute | Climate and Energy Researcher | Avid Offshore Sailor "
+      introSubtitle = "Senior Associate, RMI | Climate and Transportation Policy | Avid Offshore Sailor "
       introPhoto = "/chair_cropped.JPG"
       logo = "/miguel_logo2.png"
     #[[languages.en.menu.main]]
@@ -22,7 +22,7 @@ DefaultContentLanguageInSubdir = true
 		
 	[[languages.en.menu.main]]
         name = "Resume"
-        url = "Moravec_CV_2022.pdf"
+        url = "Moravec Resume 2024.pdf"
         weight = 3
 
     [[languages.en.menu.main]]
