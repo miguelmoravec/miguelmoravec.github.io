@@ -2,17 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://miguelmoravec.com/en/blog/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://miguelmoravec.com/en/blog/how_to_climate_policy/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://miguelmoravec.com/en/tags/leadership/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+    <loc>https://miguelmoravec.com/en/page/about/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -23,6 +17,18 @@
                 hreflang="en"
                 href="https://miguelmoravec.com/en/"
                 />
+  </url><url>
+    <loc>https://miguelmoravec.com/en/page/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/</loc>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/blog/how_to_climate_policy/</loc>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/en/tags/leadership/</loc>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/tags/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
@@ -52,13 +58,7 @@
     <loc>https://miguelmoravec.com/en/blog/nashzero/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://miguelmoravec.com/en/page/about/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://miguelmoravec.com/en/blog/doresdivest/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://miguelmoravec.com/en/page/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/en/blog/stemseas2/</loc>

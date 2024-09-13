@@ -5,7 +5,18 @@
     <link>https://miguelmoravec.com/en/</link>
     <description>Recent content on Miguel Moravec&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 31 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://miguelmoravec.com/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://miguelmoravec.com/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://miguelmoravec.com/en/page/about/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/page/about/</guid>
+      <description>Hey! I&amp;rsquo;m Miguel, and I&amp;rsquo;m a senior associate with RMI’s US Program. I focus on climate-smart policy solutions to equitably decarbonize the US transportation sector.
+Before RMI, I was a student at Vanderbilt University, where I earned my MS in Civil Engineering and was president of the graduate student body.
+My proudest work achievement so far has been leading the development of the Smarter MODES Calculator, a tool that quantifies the societal benefits of expanding clean transportation choices.</description>
+    </item>
+    
     <item>
       <title>How to break into Climate Policy</title>
       <link>https://miguelmoravec.com/en/blog/how_to_climate_policy/</link>
@@ -47,16 +58,6 @@ This page is organized as follows:
       <description>The following interactive dashboard was created for our client, the Metropolitan Government of Nashville, as part of a team Data Science Institute effort. The dashboard forecasts debris permit and tonnage generation under a range of scenarios.
 
 Click &amp;raquo; here &amp;laquo; to launch dashboard Background Metro Nashville has set a goal to be solid landfill neutral by 2050. As a rapidly growing city, one of the major sources of solid waste is through development (i.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://miguelmoravec.com/en/page/about/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://miguelmoravec.com/en/page/about/</guid>
-      <description>Hey! I&amp;rsquo;m Miguel, and I&amp;rsquo;m a PhD student in the department of Civil and Environmental Engineering at Vanderbilt University. I&amp;rsquo;m also the President of the Graduate Student Body and the co-founder of Dores Divest, a campus sustainable investments campaign. I grew up sailing in Annapolis, Maryland, but am now pleased to call Nashville home.
-I have a diverse work history in public service, and I&amp;rsquo;d like to continue to employ myself in the pursuit of a more equitable world.</description>
     </item>
     
     <item>

@@ -1,16 +1,24 @@
 ---
 author: Miguel Moravec
 title: About Me
-date: 2021-07-15
+date: 2024-09-12
 description:
 keywords: ["about-us", "about-hugo", "contact"]
 type: about
 ---
-Hey! I'm Miguel, and I'm a PhD student in the department of Civil and Environmental Engineering at Vanderbilt University. I'm also the [President](https://vanderbilthustler.com/47776/featured/graduate-student-council-elects-new-executive-board/) of the Graduate Student Body and the co-founder of [Dores Divest](https://divestvanderbilt.com/), a campus sustainable investments campaign. I grew up sailing in Annapolis, Maryland, but am now pleased to call Nashville home.
+Hey! I'm Miguel, and I'm a senior associate with RMI’s US Program. I focus on climate-smart policy solutions to equitably decarbonize the US transportation sector.
+
+Before RMI, I was a student at Vanderbilt University, where I earned my MS in Civil Engineering and was president of the graduate student body.
 
 ![Miguel](/miguel.PNG)
 
-I have a diverse [work history](/en/Moravec_CV_2022.pdf) in public service, and I'd like to continue to employ myself in the pursuit of a more equitable world. I'm especially interested in issues of climate justice and how we can make the most compelling cases to quickly decarbonize our society. 
+My proudest work achievement so far has been leading the development of the Smarter MODES Calculator, a tool that quantifies the societal benefits of expanding clean transportation choices. I've shared my analytical findings with congressional staffers, state legislatures, and “America Is All In” coalition partners.
+
+As a researcher, I cut my teeth at US NOAA’s Geophysical Fluid Dynamics Laboratory modeling global earth systems. I then focused on transportation resilience, publishing analysis of intermodal systems as part of a US Department of Homeland Security project.
+
+Earlier in my career, I worked for the US EPA’s Safer Chemical Research group, supporting a cross-matrixed team of scientists and policymakers. I also has professional experience with Nissan North America.
+
+Outside of work, I enjoy sailing. As a young man, I completed two years of officer training at the US Naval Academy under an appointment from US Senator Barbara Mikulski.
 
 This site is an online portfolio of some of my works, please explore and enjoy!
 
@@ -24,7 +32,7 @@ This site is an online portfolio of some of my works, please explore and enjoy!
 - [fossilfree5.org](https://fossilfree5.org/)
 - [vanderbilt.edu/sailing/](https://studentorg.vanderbilt.edu/sailing/)
 
-Need a website like one of the above? [Contact me](mailto:miguel.moravec@vanderbilt.edu) to make an inquiry.
+Need a website like one of the above? [Contact me](mailto:miguelmoravec@gmail.com) to make an inquiry.
 
 ---
 ## Miguel in the News 2021 - 2022:
