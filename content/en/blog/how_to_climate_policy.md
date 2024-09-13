@@ -80,12 +80,13 @@ I personally cringe when folks talk about starting a recycling club – but even
 
 ## Apply to these grad schools or adjacent jobs
 
-For better of for worse, some schools have a better pipeline into climate policy world than others. This can be due to faculty relationships, formally funded internship agreements, or merely proximity to DC. None the less, I’d highly consider you apply to one of the following schools to get plugged into climate policy world:
+For better of for worse, some schools have a better pipeline into climate policy world than others. This can be due to faculty relationships, formally funded internship agreements, or merely proximity to DC. None the less, I’d highly recommend you apply to one of the following schools to get plugged into climate policy world:
 
 -	Columbia University (lord there are so many Columbia grads in this space)
 -	Duke University
 -	John Hopkins University
 -	Stanford University
+-   University of Michigan
 -	Colorado State University – Boulder Campus (surprisingly strong program)
 
 I realize that gaining acceptance to and paying masters tuition at many of these schools may sound daunting – but recall that:
@@ -127,5 +128,6 @@ Obviously, I’ll reiterate that the federal government is a great place to work
 
 Well there you have it, with just these four steps, you can rebrand your skillset significantly to be more appealing to climate policy groups! I hope my blog has been helpful – feel free to reach out on LinkedIn with any questions you may have.
 
-Last and most importantly, don’t give up! It’s so worth the wait to wake up to a job you enjoy – be patient, be relentless, and you’ll make it here too eventually. 
+Last and most importantly, don’t give up! It’s so worth the wait to wake up to a job of environmental protection that you can be proud of every day – be patient, be relentless, and you’ll make it here too eventually. 
 
+![In the well of a congressional hearing room](/images/Congressional-Decarbonization-Briefing-2024.jpeg) 
