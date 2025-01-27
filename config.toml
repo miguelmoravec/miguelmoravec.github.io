@@ -12,7 +12,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Miguel Moravec"
-      introSubtitle = "Senior Associate, RMI | Climate and Transportation Policy | Avid Offshore Sailor "
+      introSubtitle = "Senior Associate, RMI | Climate and Transportation Policy"
       introPhoto = "/chair_cropped.JPG"
       logo = "/miguel_logo2.png"
     #[[languages.en.menu.main]]
@@ -28,43 +28,19 @@ DefaultContentLanguageInSubdir = true
     [[languages.en.menu.main]]
         name = "About"
         url = "page/about/"
-		weight = 1
+		weight = 3
 
     #[[languages.en.menu.main]]
     #    name = "Blog2"
-    #    url = "tags"
+    #    url = "/tags"
     #    weight = 4
 
     [[languages.en.menu.main]]
         name = "Blog"
-        url = "/tags"
-        weight = 3
-
-  [languages.de]
-    contentDir = "content/de" # Deutsch
-    weight = 2
-    languageName = "."
-    title = "Blist (mehrsprachig)"
-    description = "Modernes Blog-Theme für Ihre Hugo-Site."
-    [languages.de.params]
-      introTitle = "Hallo, ich bin Miguel Moravec"
-      introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
-      introPhoto = "/chair_cropped.JPG"
-      logo = "/miguel_logo.png"
-    [[languages.de.menu.main]]
-        name = "Blog"
-        url = "blog"
+        url = "/blog"
         weight = 1
 
-    [[languages.de.menu.main]]
-        name = "Über mich"
-        url = "page/about/"
-        weight = 2
 
-    [[languages.de.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
 
  
 
@@ -76,7 +52,7 @@ DefaultContentLanguageInSubdir = true
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "Copyright © 2022 - Miguel Moravec · All rights reserved"
+  copyright = "Copyright © 2025 - Miguel Moravec · All rights reserved"
   favicon = "/batman3.png"
 
   # Color for the intro details and social links block, not applicable for dark mode
