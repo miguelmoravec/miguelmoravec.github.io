@@ -69,6 +69,16 @@ It took me 4 years and as many major setbacks to finally make it to the climate 
     </item>
     
     <item>
+      <title>Public Overwhelmingly Supports Policy to Reduce Highway Emissions</title>
+      <link>https://miguelmoravec.com/blog/fhwa_map/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/blog/fhwa_map/</guid>
+      <description>The following interactive map was created in R using the Leaflet App. It dynamically depicts the location of public comments to the proposed FHWA emissions rule. Each &amp;ldquo;pin&amp;rdquo; includes a link to the submitter&amp;rsquo;s comment and information about the comment.
+This effort informed an America Is All In piece on the matter, which can be read here.</description>
+    </item>
+    
+    <item>
       <title>Geospatial Data Map: Multimodal Assets</title>
       <link>https://miguelmoravec.com/blog/port_map/</link>
       <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
@@ -161,16 +171,6 @@ Janey Camp and Craig Philip, both research associate professors of civil and env
       <guid>https://miguelmoravec.com/blog/thesis/</guid>
       <description>The following interactive map was created in R using the Shiny App. It dynamically depicts the increases in the mean, median, and normalized sales price per census tract neighborhood.
 Increase in Median Sales Price in Davidson County, 2013-2016 (%) This map was created as part of my senior honor&amp;rsquo;s thesis at Vanderbilt University. For the project, I extracted over 60,000 real estate transactions from the Nashville Property Assesor&amp;rsquo;s office API using python scripts to make a comprehensive record of all sales in Davidson County between 2013 and 2016.</description>
-    </item>
-    
-    <item>
-      <title>FHWA Emissions Rule Public Comment Mapping</title>
-      <link>https://miguelmoravec.com/blog/fhwa_map/</link>
-      <pubDate>Thu, 03 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://miguelmoravec.com/blog/fhwa_map/</guid>
-      <description>The following interactive map was created in R using the Leaflet App. It dynamically depicts the location of public comments to the proposed FHWA emissions rule. Each &amp;ldquo;pin&amp;rdquo; includes a link to the submitter&amp;rsquo;s comment and information about the comment.
-Note that comments from individuals are not included due to the lack of public address information. This page contains public data and is available by direct link only.</description>
     </item>
     
   </channel>
