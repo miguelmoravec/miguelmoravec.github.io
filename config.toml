@@ -7,18 +7,15 @@ DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
-    contentDir = "content/en" #English
+    contentDir = "content" 
     weight = 1
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Miguel Moravec"
-      introSubtitle = "Senior Associate, RMI | Climate and Transportation Policy"
+      introSubtitle = "Senior Associate, RMI | Climate & Transportation Policy"
       introPhoto = "/chair_cropped.JPG"
       logo = "/miguel_logo2.png"
-    #[[languages.en.menu.main]]
-    #    name = "Blog"
-    #    url = "blog"
-    #    weight = 4
+
 		
 	[[languages.en.menu.main]]
         name = "Resume"
@@ -28,7 +25,7 @@ DefaultContentLanguageInSubdir = true
     [[languages.en.menu.main]]
         name = "About"
         url = "page/about/"
-		weight = 3
+		weight = 2
 
     #[[languages.en.menu.main]]
     #    name = "Blog2"

@@ -80,7 +80,7 @@ I personally cringe when folks talk about starting a recycling club – but even
 
 ## Apply to these grad schools or adjacent jobs
 
-For better of for worse, some schools have a better pipeline into climate policy world than others. This can be due to faculty relationships, formally funded internship agreements, or merely proximity to DC. None the less, I’d highly recommend you apply to one of the following schools to get plugged into climate policy world:
+For better or for worse, some schools have a better pipeline into climate policy world than others. This can be due to faculty relationships, formally funded internship agreements, or merely proximity to DC. None the less, I’d highly recommend you apply to one of the following schools to get plugged into climate policy world:
 
 -	Columbia University (lord there are so many Columbia grads in this space)
 -	Duke University

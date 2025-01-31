@@ -1,3 +1,4 @@
 ---
-title: Recents Article
+author: Miguel Moravec
+title: Blog
 ---
