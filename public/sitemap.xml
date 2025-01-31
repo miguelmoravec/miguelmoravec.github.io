@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://miguelmoravec.com/blog/media24/</loc>
+    <lastmod>2024-12-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://miguelmoravec.com/blog/</loc>
-    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/tags/leadership/</loc>
-    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/</loc>
-    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://miguelmoravec.com/blog/podcasts/</loc>
-    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/tags/</loc>
+    <lastmod>2024-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/blog/podcasts/</loc>
     <lastmod>2024-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/page/about/</loc>
@@ -25,6 +28,9 @@
   </url><url>
     <loc>https://miguelmoravec.com/blog/how_to_climate_policy/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://miguelmoravec.com/blog/hill/</loc>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://miguelmoravec.com/blog/pnw_map/</loc>
     <lastmod>2023-11-11T00:00:00+00:00</lastmod>
