@@ -10,7 +10,7 @@ thumbnail: "/aiai.png"
 ## Cool dashboard here:
 
 
-<iframe style="height:450px;overflow:hidden;width:100%;" height="900" scrolling="no" src="https://miguelmoravec.com/blog/claude/Dash_test.html" width="100"></iframe>
+<iframe style="height:450px;overflow:hidden;width:100%;" height="900" scrolling="no" src="https://miguelmoravec.com/blog/claude/Dash_test1.html" width="100"></iframe>
 
 
 <iframe style="height:450px;overflow:hidden;width:100%;" height="900" scrolling="no" src="https://claude.site/artifacts/fc83ddbb-a3bb-4011-845f-90a4e7cf36ec" width="300"></iframe>
