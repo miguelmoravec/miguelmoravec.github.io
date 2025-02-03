@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highway Emissions Dashboard</title>
+
+    <!-- Dependencies -->
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script crossorigin
+        src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/recharts/2.12.0/Recharts.js"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script>
+        const { useState, useEffect } = React;
+        const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } = Recharts;
+
+        // Custom Card components to replace shadcn/ui
+        const Card = ({ children, className = '' }) => {
+            return React.createElement('div', {
+                className: `bg-white rounded-lg border shadow-sm ${className}`
+            }, children);
+        };
+
+        const CardHeader = ({ children }) => {
+            return React.createElement('div', {
+                className: 'p-6 pb-4'
+            }, children);
+        };
+
+        const CardContent = ({ children, className = '' }) => {
+            return React.createElement('div', {
+                className: `p-6 pt-0 ${className}`
+            }, children);
+        };
+
+        const CardTitle = ({ children }) => {
+            return React.createElement('h2', {
+                className: 'text-2xl font-bold'
+            }, children);
+        };
+
+        // Custom Slider component to replace shadcn/ui
+        const Slider = ({ value, onValueChange, min = 0, max = 100, step = 1, className = '' }) => {
+            return React.createElement('input', {
+                type: 'range',
+                min,
+                max,
+                step,
+                value: value[0],
+                onChange: (e) => onValueChange([parseFloat(e.target.value)]),
+                className: `w-full ${className}`
+            });
+        };
+
+        const EmissionsDashboard = () => {
+            // State for user inputs
+            const [elasticity, setElasticity] = useState(0.5);
+            const [evSalesGrowth, setEvSalesGrowth] = useState(30);
+            const [numLanes, setNumLanes] = useState(2);
+
+            // Constants
+            const BASELINE_DAILY_TRAFFIC = 50000;
+            const ICE_EMISSIONS_PER_MILE = 404;
+            const EV_EMISSIONS_PER_MILE = 120;
+            const AVERAGE_TRIP_LENGTH = 15;
+            const YEARS_TO_PROJECT = 10;
+            const ANNUAL_TRAFFIC_GROWTH = 0.02;
+            const YEARS_TO_FULL_INDUCED_DEMAND = 6;
+            const CURRENT_EV_FLEET_PERCENTAGE = 2;
+            const CURRENT_EV_SALES_PERCENTAGE = 10;
+            const ANNUAL_FLEET_TURNOVER = 0.07;
+
+            const calculateEmissions = () => {
+                const data = [];
+
+                for (let year = 0; year <= YEARS_TO_PROJECT; year++) {
+                    // Calculate capacity increase from new lanes
+                    const capacityIncrease = numLanes / 3;
+
+                    // Calculate induced demand factor that phases in over time
+                    let inducedDemandFactor;
+                    if (year >= YEARS_TO_FULL_INDUCED_DEMAND) {
+                        inducedDemandFactor = 1 + (capacityIncrease * elasticity);
+                    } else {
+                        const phaseInPercentage = Math.pow(year / YEARS_TO_FULL_INDUCED_DEMAND, 2);
+                        const maxInducedDemand = capacityIncrease * elasticity;
+                        inducedDemandFactor = 1 + (maxInducedDemand * phaseInPercentage);
+                    }
+
+                    // Apply both induced demand and annual growth
+                    const trafficGrowthFactor = Math.pow(1 + ANNUAL_TRAFFIC_GROWTH, year);
+                    const dailyTraffic = BASELINE_DAILY_TRAFFIC * inducedDemandFactor * trafficGrowthFactor;
+
+                    // Calculate EV sales percentage for this year
+                    const evSalesPercentage = Math.min(
+                        CURRENT_EV_SALES_PERCENTAGE * Math.pow(1 + evSalesGrowth / 100, year),
+                        100
+                    );
+
+                    // Calculate cumulative fleet turnover to EVs
+                    let evFleetPercentage = CURRENT_EV_FLEET_PERCENTAGE;
+                    for (let i = 0; i < year; i++) {
+                        const newEvs = ANNUAL_FLEET_TURNOVER * evSalesPercentage;
+                        evFleetPercentage = Math.min(
+                            evFleetPercentage + newEvs,
+                            100
+                        );
+                    }
+
+                    // Calculate emissions based on evolving EV/ICE split
+                    const evCount = dailyTraffic * (evFleetPercentage / 100);
+                    const iceCount = dailyTraffic * (1 - evFleetPercentage / 100);
+
+                    const dailyEvEmissions = evCount * AVERAGE_TRIP_LENGTH * EV_EMISSIONS_PER_MILE;
+                    const dailyIceEmissions = iceCount * AVERAGE_TRIP_LENGTH * ICE_EMISSIONS_PER_MILE;
+                    const totalDailyEmissions = (dailyEvEmissions + dailyIceEmissions) / 1000000;
+
+                    data.push({
+                        year,
+                        totalEmissions: totalDailyEmissions.toFixed(2),
+                        evEmissions: (dailyEvEmissions / 1000000).toFixed(2),
+                        iceEmissions: (dailyIceEmissions / 1000000).toFixed(2),
+                        traffic: Math.round(dailyTraffic),
+                        inducedDemandPercentage: ((inducedDemandFactor - 1) * 100).toFixed(1),
+                        evFleetPercentage: evFleetPercentage
+                    });
+                }
+                return data;
+            };
+
+            const emissionsData = calculateEmissions();
+
+            return React.createElement('div', { className: 'p-4 space-y-4 max-w-4xl mx-auto' },
+                React.createElement(Card, null,
+                    React.createElement(CardHeader, null,
+                        React.createElement(CardTitle, null, 'Highway Expansion Emissions Impact Dashboard')
+                    ),
+                    React.createElement(CardContent, null,
+                        React.createElement('div', { className: 'grid gap-6' }, [
+                            // Elasticity Slider
+                            React.createElement('div', { className: 'space-y-2', key: 'elasticity' }, [
+                                React.createElement('label', { className: 'text-sm font-medium' },
+                                    'Induced Demand Elasticity (0-1)'
+                                ),
+                                React.createElement(Slider, {
+                                    value: [elasticity],
+                                    onValueChange: setElasticity,
+                                    max: 1,
+                                    step: 0.1
+                                }),
+                                React.createElement('p', { className: 'text-sm text-gray-500' },
+                                    `Current value: ${elasticity} (Higher values mean more induced traffic over ${YEARS_TO_FULL_INDUCED_DEMAND} years)`
+                                )
+                            ]),
+
+                            // EV Sales Growth Slider
+                            React.createElement('div', { className: 'space-y-2', key: 'ev-growth' }, [
+                                React.createElement('label', { className: 'text-sm font-medium' },
+                                    'Annual EV Sales Growth Rate'
+                                ),
+                                React.createElement(Slider, {
+                                    value: [evSalesGrowth],
+                                    onValueChange: setEvSalesGrowth,
+                                    max: 100,
+                                    step: 5
+                                }),
+                                React.createElement('p', { className: 'text-sm text-gray-500' },
+                                    `Current value: ${evSalesGrowth}% growth per year (starting from ${CURRENT_EV_SALES_PERCENTAGE}% of new sales)`
+                                )
+                            ]),
+
+                            // Number of Lanes Slider
+                            React.createElement('div', { className: 'space-y-2', key: 'lanes' }, [
+                                React.createElement('label', { className: 'text-sm font-medium' },
+                                    'Number of New Lanes'
+                                ),
+                                React.createElement(Slider, {
+                                    value: [numLanes],
+                                    onValueChange: setNumLanes,
+                                    max: 4,
+                                    min: 1,
+                                    step: 1
+                                }),
+                                React.createElement('p', { className: 'text-sm text-gray-500' },
+                                    `Current value: ${numLanes} lanes`
+                                )
+                            ]),
+
+                            // Key Assumptions
+                            React.createElement('div', {
+                                className: 'bg-gray-50 p-4 rounded-lg',
+                                key: 'assumptions'
+                            }, [
+                                React.createElement('h3', { className: 'font-medium mb-2' }, 'Key Assumptions:'),
+                                React.createElement('ul', { className: 'text-sm text-gray-600 space-y-1' }, [
+                                    `• Base traffic: ${BASELINE_DAILY_TRAFFIC.toLocaleString()} vehicles/day`,
+                                    `• Annual background traffic growth: ${ANNUAL_TRAFFIC_GROWTH * 100}%`,
+                                    `• Years to reach full induced demand: ${YEARS_TO_FULL_INDUCED_DEMAND}`,
+                                    `• Current EV fleet: ${CURRENT_EV_FLEET_PERCENTAGE}% of vehicles`,
+                                    `• Current EV sales: ${CURRENT_EV_SALES_PERCENTAGE}% of new vehicles`,
+                                    `• Annual fleet turnover: ${ANNUAL_FLEET_TURNOVER * 100}%`,
+                                    `• ICE emissions: ${ICE_EMISSIONS_PER_MILE}g CO2/mile`,
+                                    `• EV emissions: ${EV_EMISSIONS_PER_MILE}g CO2/mile`,
+                                    `• Average trip length: ${AVERAGE_TRIP_LENGTH} miles`
+                                ].map((text, i) =>
+                                    React.createElement('li', { key: i }, text)
+                                ))
+                            ]),
+
+                            // Chart
+                            React.createElement('div', { className: 'h-96', key: 'chart' },
+                                React.createElement(ResponsiveContainer, { width: '100%', height: '100%' },
+                                    React.createElement(LineChart, { data: emissionsData }, [
+                                        React.createElement(CartesianGrid, { strokeDasharray: '3 3' }),
+                                        React.createElement(XAxis, {
+                                            dataKey: 'year',
+                                            label: { value: 'Years After Construction', position: 'bottom' }
+                                        }),
+                                        React.createElement(YAxis, {
+                                            label: {
+                                                value: 'Daily Emissions (Metric Tons CO2)',
+                                                angle: -90,
+                                                position: 'insideLeft'
+                                            }
+                                        }),
+                                        React.createElement(Tooltip, {
+                                            content: ({ active, payload, label }) => {
+                                                if (active && payload && payload.length) {
+                                                    return React.createElement('div', {
+                                                        className: 'bg-white p-4 border rounded shadow'
+                                                    }, [
+                                                        React.createElement('p', { className: 'font-medium' }, `Year ${label}`),
+                                                        React.createElement('p', null, `Total Emissions: ${payload[0].value} metric tons CO2`),
+                                                        React.createElement('p', null, `Induced Traffic: ${emissionsData[label].inducedDemandPercentage}% above baseline`),
+                                                        React.createElement('p', null, `Daily Traffic: ${emissionsData[label].traffic.toLocaleString()} vehicles`),
+                                                        React.createElement('p', null, `EV Fleet: ${Math.round(emissionsData[label].traffic * emissionsData[label].evFleetPercentage / 100).toLocaleString()} vehicles (${emissionsData[label].evFleetPercentage.toFixed(1)}%)`)
+                                                    ]);
+                                                }
+                                                return null;
+                                            }
+                                        }),
+                                        React.createElement(Legend),
+                                        React.createElement(Line, {
+                                            type: 'monotone',
+                                            dataKey: 'totalEmissions',
+                                            stroke: '#8884d8',
+                                            name: 'Total Emissions'
+                                        }),
+                                        React.createElement(Line, {
+                                            type: 'monotone',
+                                            dataKey: 'evEmissions',
+                                            stroke: '#82ca9d',
+                                            name: 'EV Emissions'
+                                        }),
+                                        React.createElement(Line, {
+                                            type: 'monotone',
+                                            dataKey: 'iceEmissions',
+                                            stroke: '#ff7300',
+                                            name: 'ICE Emissions'
+                                        })
+                                    ])
+                                )
+                            ),
+
+                            // Summary Cards
+                            React.createElement('div', {
+                                className: 'grid grid-cols-2 gap-4',
+                                key: 'summary'
+                            }, [
+                                React.createElement(Card, { key: 'traffic' },
+                                    React.createElement(CardContent, { className: 'pt-6' }, [
+                                        React.createElement('p', { className: 'text-2xl font-bold' },
+                                            emissionsData[YEARS_TO_PROJECT].traffic.toLocaleString()
+                                        ),
+                                        React.createElement('p', { className: 'text-sm text-gray-500' },
+                                            `Daily Vehicle Traffic (Year ${YEARS_TO_PROJECT})`
+                                        )
+                                    ])
+                                ),
+                                React.createElement(Card, { key: 'emissions' },
+                                    React.createElement(CardContent, { className: 'pt-6' }, [
+                                        React.createElement('p', { className: 'text-2xl font-bold' },
+                                            (parseFloat(emissionsData[YEARS_TO_PROJECT].totalEmissions) * 365).toLocaleString()
+                                        ),
+                                        React.createElement('p', { className: 'text-sm text-gray-500' },
+                                            'Annual Emissions (Metric Tons CO2)'
+                                        )
+                                    ])
+                                )
+                            ])
+                        ])
+                    )
+                )
+            );
+        };
+
+        // Render the app
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(React.createElement(EmissionsDashboard));
+    </script>
+</body>
+
+</html>
