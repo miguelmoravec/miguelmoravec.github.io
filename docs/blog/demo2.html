@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fleet Emissions Dashboard</title>
+  <!-- React and ReactDOM -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Recharts -->
+  <script src="https://unpkg.com/recharts/umd/Recharts.js"></script>
+  <!-- Babel for JSX -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* Additional styles for the dashboard */
+    .dashboard-container {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="root" class="dashboard-container"></div>
+
+  <script type="text/babel">
+    // Destructure required components from Recharts
+    const { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } = Recharts;
+
+    // Create Card components to replace shadcn/ui components
+    const Card = ({ children, className = "" }) => (
+      <div className={`bg-white rounded-lg shadow-lg ${className}`}>
+        {children}
+      </div>
+    );
+
+    const CardHeader = ({ children }) => (
+      <div className="px-6 py-4 border-b border-gray-200">
+        {children}
+      </div>
+    );
+
+    const CardTitle = ({ children }) => (
+      <h2 className="text-xl font-semibold">
+        {children}
+      </h2>
+    );
+
+    const CardContent = ({ children }) => (
+      <div className="px-6 py-4">
+        {children}
+      </div>
+    );
+
+    // Main Dashboard Component
+    const FleetEmissionsDashboard = () => {
+      // Initial state
+      const [fleetGrowth, setFleetGrowth] = React.useState(0);
+      const [evGrowthRate, setEvGrowthRate] = React.useState(0);
+      const [milesReduction, setMilesReduction] = React.useState(0);
+      const [gridIntensity2035, setGridIntensity2035] = React.useState(400);
+     
+      // Constants
+      const INITIAL_TOTAL_FLEET = 283400000;
+      const INITIAL_ANNUAL_SALES = 17000000;
+      const INITIAL_EV_SALES_PERCENT = 7;
+      const INITIAL_FLEET_EV_PERCENT = 1;
+      const VEHICLE_LIFETIME = 15;
+      const YEARS = 10;
+      const EMISSIONS_PER_VEHICLE = 4.6;
+      const INITIAL_GRID_INTENSITY = 400;
+      const EV_EFFICIENCY = 0.3;
+      const AVERAGE_MILES_PER_YEAR = 12000;
+
+      // Calculate fleet metrics
+      const calculateFleetMetrics = () => {
+        let data = [];
+        let currentFleet = {
+          total: INITIAL_TOTAL_FLEET,
+          ev: INITIAL_TOTAL_FLEET * (INITIAL_FLEET_EV_PERCENT / 100),
+          conventional: INITIAL_TOTAL_FLEET * (1 - INITIAL_FLEET_EV_PERCENT / 100)
+        };
+
+        // Use Array.from to create a fresh object for each age group.
+        let fleetByAge = Array.from({ length: VEHICLE_LIFETIME }, () => ({
+          total: currentFleet.total / VEHICLE_LIFETIME,
+          ev: currentFleet.ev / VEHICLE_LIFETIME,
+          conventional: currentFleet.conventional / VEHICLE_LIFETIME
+        }));
+
+        for (let year = 0; year <= YEARS; year++) {
+          const targetFleetGrowth = (fleetGrowth / 100) * (year / YEARS);
+          const targetFleetSize = INITIAL_TOTAL_FLEET * (1 + targetFleetGrowth);
+          const targetSales = INITIAL_ANNUAL_SALES * (1 + targetFleetGrowth);
+         
+          let evSalesPercent = INITIAL_EV_SALES_PERCENT * Math.pow(1 + evGrowthRate / 100, year);
+          evSalesPercent = Math.min(evSalesPercent, 100);
+         
+          const evSales = Math.min(targetSales * (evSalesPercent / 100), targetSales);
+          const conventionalSales = targetSales - evSales;
+         
+          const retirements = fleetByAge[VEHICLE_LIFETIME - 1];
+         
+          fleetByAge = [
+            { total: evSales + conventionalSales, ev: evSales, conventional: conventionalSales },
+            ...fleetByAge.slice(0, -1)
+          ];
+         
+          currentFleet = {
+            total: fleetByAge.reduce((sum, age) => sum + age.total, 0),
+            ev: fleetByAge.reduce((sum, age) => sum + age.ev, 0),
+            conventional: fleetByAge.reduce((sum, age) => sum + age.conventional, 0)
+          };
+         
+          const yearlyMilesReduction = (milesReduction * (year / YEARS));
+          const milesFactor = 1 - (yearlyMilesReduction / 100);
+          const adjustedMilesPerYear = AVERAGE_MILES_PER_YEAR * milesFactor;
+         
+          const yearlyGridIntensity = INITIAL_GRID_INTENSITY +
+            ((gridIntensity2035 - INITIAL_GRID_INTENSITY) * (year / YEARS));
+         
+          const conventionalEmissions = currentFleet.conventional * EMISSIONS_PER_VEHICLE * milesFactor;
+          const evEmissions = (yearlyGridIntensity * EV_EFFICIENCY * adjustedMilesPerYear * currentFleet.ev) / 1000000;
+          const totalEmissions = conventionalEmissions + evEmissions;
+         
+          data.push({
+            year: 2025 + year,
+            conventional: currentFleet.conventional,
+            electric: currentFleet.ev,
+            totalFleet: currentFleet.total,
+            evSales,
+            conventionalSales,
+            totalSales: targetSales,
+            retirements: retirements.total,
+            emissions: totalEmissions,
+            evEmissions,
+            conventionalEmissions,
+            gridIntensity: yearlyGridIntensity,
+            evPercent: (currentFleet.ev / currentFleet.total) * 100,
+            evSalesPercent
+          });
+        }
+       
+        return data;
+      };
+
+      const data = calculateFleetMetrics();
+      const finalEmissions = data[data.length - 1].emissions;
+
+      return (
+        <Card>
+          <CardHeader>
+            <CardTitle>Fleet Emissions Dashboard</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-6">
+              {/* Sliders */}
+              <div className="space-y-4">
+                <div>
+                  <label className="block text-sm font-medium mb-2">
+                    Fleet Growth by 2035: {fleetGrowth}%
+                  </label>
+                  <input
+                    type="range"
+                    min="0"
+                    max="30"
+                    value={fleetGrowth}
+                    onChange={(e) => setFleetGrowth(Number(e.target.value))}
+                    className="w-full"
+                  />
+                </div>
+               
+                <div>
+                  <label className="block text-sm font-medium mb-2">
+                    EV Sales Growth Rate: {evGrowthRate}%/year
+                  </label>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value={evGrowthRate}
+                    onChange={(e) => setEvGrowthRate(Number(e.target.value))}
+                    className="w-full"
+                  />
+                </div>
+               
+                <div>
+                  <label className="block text-sm font-medium mb-2">
+                    Miles Reduction: {milesReduction}%
+                  </label>
+                  <input
+                    type="range"
+                    min="0"
+                    max="30"
+                    value={milesReduction}
+                    onChange={(e) => setMilesReduction(Number(e.target.value))}
+                    className="w-full"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium mb-2">
+                    2035 Grid Intensity: {gridIntensity2035} g/kWh
+                  </label>
+                  <input
+                    type="range"
+                    min="0"
+                    max="400"
+                    value={gridIntensity2035}
+                    onChange={(e) => setGridIntensity2035(Number(e.target.value))}
+                    className="w-full"
+                  />
+                </div>
+              </div>
+
+              {/* Summary Stats */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-2">Final Year Emissions (2035)</h3>
+                  <p className="text-2xl font-bold">
+                    {finalEmissions.toLocaleString(undefined, {maximumFractionDigits: 0})}
+                    <span className="text-base font-normal"> metric tons CO2</span>
+                  </p>
+                </div>
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-2">Final Year Fleet Size</h3>
+                  <p className="text-2xl font-bold">
+                    {data[data.length-1].totalFleet.toLocaleString(undefined, {maximumFractionDigits: 0})}
+                    <span className="text-base font-normal"> vehicles</span>
+                  </p>
+                </div>
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-2">Final Year EV Sales Share</h3>
+                  <p className="text-2xl font-bold">
+                    {data[data.length-1].evSalesPercent.toLocaleString(undefined, {maximumFractionDigits: 1})}
+                    <span className="text-base font-normal">%</span>
+                  </p>
+                </div>
+              </div>
+
+              {/* Charts */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {/* Vehicle Composition Chart */}
+                <div className="h-96">
+                  <h3 className="text-lg font-semibold mb-4">Vehicle Fleet Composition</h3>
+                  <BarChart
+                    width={500}
+                    height={350}
+                    data={data}
+                    margin={{
+                      top: 20,
+                      right: 30,
+                      left: 20,
+                      bottom: 5,
+                    }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="year" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="conventional" stackId="a" name="Conventional Vehicles" fill="#ff7c43" />
+                    <Bar dataKey="electric" stackId="a" name="Electric Vehicles" fill="#00b4d8" />
+                  </BarChart>
+                </div>
+
+                {/* Emissions Chart */}
+                <div className="h-96">
+                  <h3 className="text-lg font-semibold mb-4">Annual Emissions</h3>
+                  <LineChart
+                    width={500}
+                    height={350}
+                    data={data}
+                    margin={{
+                      top: 20,
+                      right: 30,
+                      left: 20,
+                      bottom: 5,
+                    }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="year" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Line
+                      type="monotone"
+                      dataKey="conventionalEmissions"
+                      name="Conventional Vehicle Emissions"
+                      stroke="#ff7c43"
+                      strokeWidth={2}
+                    />
+                    <Line
+                      type="monotone"
+                      dataKey="evEmissions"
+                      name="EV Emissions"
+                      stroke="#00b4d8"
+                      strokeWidth={2}
+                    />
+                    <Line
+                      type="monotone"
+                      dataKey="emissions"
+                      name="Total Emissions"
+                      stroke="#2b9348"
+                      strokeWidth={2}
+                    />
+                  </LineChart>
+                </div>
+
+                {/* Vehicle Sales Chart */}
+                <div className="h-96">
+                  <h3 className="text-lg font-semibold mb-4">Annual Vehicle Sales</h3>
+                  <BarChart
+                    width={500}
+                    height={350}
+                    data={data}
+                    margin={{
+                      top: 20,
+                      right: 30,
+                      left: 20,
+                      bottom: 5,
+                    }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="year" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="conventionalSales" stackId="a" name="Conventional Sales" fill="#ff7c43" />
+                    <Bar dataKey="evSales" stackId="a" name="EV Sales" fill="#00b4d8" />
+                    <Line
+                      type="monotone"
+                      dataKey="retirements"
+                      name="Retirements"
+                      stroke="#d62828"
+                      strokeWidth={2}
+                    />
+                  </BarChart>
+                </div>
+              </div>
+
+              {/* Data Table */}
+              <div className="overflow-x-auto">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead className="bg-gray-50">
+                    <tr>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Year</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Total Fleet</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">EV %</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Total Sales</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">EV Sales %</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Retirements</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Emissions</th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-gray-200">
+                    {data.map((row) => (
+                      <tr key={row.year}>
+                        <td className="px-6 py-4 whitespace-nowrap">{row.year}</td>
+                        <td className="px-6 py-4 whitespace-nowrap">{row.totalFleet.toLocaleString()}</td>
+                        <td className="px-6 py-4 whitespace-nowrap">{row.evPercent.toFixed(1)}%</td>
+                        <td className="px-6 py-4 whitespace-nowrap">{row.totalSales.toLocaleString()}</td>
+                        <td className="px-6 py-4 whitespace-nowrap">{row.evSalesPercent.toFixed(1)}%</td>
+                        <td className="px-6 py-4 whitespace-nowrap">{row.retirements.toLocaleString()}</td>
+                        <td className="px-6 py-4 whitespace-nowrap">{row.emissions.toLocaleString(undefined, {maximumFractionDigits: 0})}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      );
+    };
+
+    // Mount the application
+    ReactDOM.render(
+      <FleetEmissionsDashboard />,
+      document.getElementById('root')
+    );
+  </script>
+</body>
+</html>
