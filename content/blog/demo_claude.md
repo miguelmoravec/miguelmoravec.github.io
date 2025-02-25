@@ -1,15 +1,17 @@
 ---
 author: "Miguel Moravec"
-title: "SHIFT 2.0 Demo"
-description: "Drafting the next great induced demand calculator"
+title: "Induced Demand Dashboard Demo"
+description: "Drafting the next great induced demand calculator for better transportation planning"
 tags: ["Leadership"]
 date: 2025-01-25
 thumbnail: "/aiai.png"
 ---
 
-## Concept tool for predicting induced demand emissions:
+## Concept tool for predicting induced demand emissions in greater detail than the [RMI SHIFT](https://shift.rmi.org/) calculator 
 
-<iframe style="height:450px;overflow:hidden;width:100%;" height="900" scrolling="no" src="https://miguelmoravec.com/blog/claude/Dash_test1.html" width="100"></iframe>
+Note: Sample data used - not yet for real world applications.
 
-Sample data used - not for real world applications - yet.
+<iframe style="height:1700px;overflow:hidden;width:100%;" height="900" scrolling="no" src="https://miguelmoravec.com/blog/claude/Dash_test1.html" width="200"></iframe>
+
+
 

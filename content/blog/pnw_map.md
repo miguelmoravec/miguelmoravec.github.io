@@ -3,7 +3,7 @@ author: "Miguel Moravec"
 title: "IRA Energy Community Mapping"
 description: "See where CJEST, DAC, and Tribal Communities meet for IRA in the PNW"
 tags: ["Leadership"]
-date: 2023-11-11
+date: 2023-01-01
 thumbnail: "/hydrogen.jpg"
 ---
 
