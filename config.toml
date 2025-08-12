@@ -7,7 +7,7 @@ DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
-    contentDir = "content" 
+    contentDir = "content/en" 
     weight = 1
     languageName = "English"
     [languages.en.params]

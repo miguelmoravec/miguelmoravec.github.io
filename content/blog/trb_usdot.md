@@ -1,7 +1,7 @@
 ---
 author: "Miguel Moravec"
 title: "Miguel presents at TRB with USDOT"
-date: 2025-01-31
+date: 2024-12-29
 description: "Miguel was invited by USDOT to present policy outcomes during a well attended lectern session on induced travel"
 tags: ["Leadership"] 
 thumbnail: "/trb.jpg"
