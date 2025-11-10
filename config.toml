@@ -34,7 +34,7 @@ DefaultContentLanguageInSubdir = true
         url = "/blog"
         weight = 3
 
-  
+  publishDir = "docs"
 
  
 
