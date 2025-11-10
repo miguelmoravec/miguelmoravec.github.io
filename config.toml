@@ -67,10 +67,6 @@ DefaultContentLanguageInSubdir = true
   instagram = "https://www.instagram.com/mi6uelito/"
 
 
-[[menu.main]]
-  name = "About"
-  url = "/blog"
-
 [build]
   writeStats = true
 

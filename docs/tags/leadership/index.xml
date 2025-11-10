@@ -5,7 +5,17 @@
     <link>https://miguelmoravec.com/tags/leadership/</link>
     <description>Recent content in Leadership on Miguel Moravec&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://miguelmoravec.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://miguelmoravec.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Miguel presents at TRB with USDOT</title>
+      <link>https://miguelmoravec.com/blog/trb_usdot/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/blog/trb_usdot/</guid>
+      <description>During the 2025 Transportation Research Board conference, Miguel collaborated with USDOT staff during several events to represent how federal tools and research were impacting on the ground policy outcomes. These collaborations included:
+ &amp;ldquo;Progress in Accounting for Induced Vehicle Travel&amp;rdquo; USDOT Lectern Session Panelist &amp;ldquo;Crafting a National Climate Change Research Agenda&amp;rdquo; USDOT Closed Door Meeting  Notably, Miguel was invited by USDOT to serve as a panelist during a lectern session titled &amp;ldquo;Progress in Accounting for Induced Vehicle Travel.</description>
+    </item>
+    
     <item>
       <title>2024 Impact Review</title>
       <link>https://miguelmoravec.com/blog/media24/</link>
@@ -15,6 +25,16 @@
       <description>Miguel is a national thought leader on transportation topics including VMT reduction strategies, state fiscal policy, federal funding solutions, and clean transport co-benefits.
 Miguel and analysis from his Smarter MODES Calculator were referenced 28 times in earned media in 2024.
 Quotes  1/22 Heatmap - Transit Agencies Are Climate Agencies, Too 1/22 Yahoo Finance - Transit Agencies Are Climate Agencies, Too 2/8 Greater Greater Washington - A law to get climate and transportation on the same page in Maryland 2/12 The Baltimore Banner - Maryland transportation officials have ambitious climate goals - can they get there?</description>
+    </item>
+    
+    <item>
+      <title>Induced Demand Dashboard Demo</title>
+      <link>https://miguelmoravec.com/blog/demo_claude/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/blog/demo_claude/</guid>
+      <description>Concept tool for predicting induced demand emissions in greater detail than the RMI SHIFT calculator Note: Sample data used - not yet for real world applications.
+</description>
     </item>
     
     <item>
@@ -28,17 +48,6 @@ Quotes  1/22 Heatmap - Transit Agencies Are Climate Agencies, Too 1/22 Yahoo Fin
     </item>
     
     <item>
-      <title>How to break into Climate Policy</title>
-      <link>https://miguelmoravec.com/blog/how_to_climate_policy/</link>
-      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://miguelmoravec.com/blog/how_to_climate_policy/</guid>
-      <description>Hello fellow Earth warrior! If you’re reading this blog, you may be asking yourself what you need to “make it” into a rewarding career of climate policy.
-Whether you’re early in your undergraduate career or looking to make a switch from some other industry, today I’m going to walk you through my journey from DC-reject to a full-blown policy professional who’s briefed policymakers from the Hill to New Mexico.
-It took me 4 years and as many major setbacks to finally make it to the climate “room where it happens,” but boy was it worth the wait!</description>
-    </item>
-    
-    <item>
       <title>Miguel briefs the Hill</title>
       <link>https://miguelmoravec.com/blog/hill/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
@@ -48,9 +57,20 @@ It took me 4 years and as many major setbacks to finally make it to the climate 
     </item>
     
     <item>
+      <title>How to break into Climate Policy</title>
+      <link>https://miguelmoravec.com/blog/how_to_climate_policy/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/blog/how_to_climate_policy/</guid>
+      <description>Hello fellow Earth warrior! If you’re reading this blog, you may be asking yourself what you need to “make it” into a rewarding career of climate policy.
+Whether you’re early in your undergraduate career or looking to make a switch from some other industry, today I’m going to walk you through my journey from DC-reject to a full-blown policy professional who’s briefed policymakers from the Hill to New Mexico.
+It took me 4 years and as many major setbacks to finally make it to the climate “room where it happens,” but boy was it worth the wait!</description>
+    </item>
+    
+    <item>
       <title>IRA Energy Community Mapping</title>
       <link>https://miguelmoravec.com/blog/pnw_map/</link>
-      <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://miguelmoravec.com/blog/pnw_map/</guid>
       <description>I created the following interactive map in R using the Leaflet App. It dynamically depicts which census tract neighborhoods in Washington and Oregon are Energy Communities, Tribal Lands, or considered disadvantaged by White House CJEST or DOE DAC metrics.
