@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Miguel Moravec&#39;s Website</title>
+    <link>https://miguelmoravec.com/en/blog/</link>
+    <description>Recent content in Blog on Miguel Moravec&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 31 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://miguelmoravec.com/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to break into Climate Policy</title>
+      <link>https://miguelmoravec.com/en/blog/how_to_climate_policy/</link>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/how_to_climate_policy/</guid>
+      <description>Hello fellow Earth warrior! If you’re reading this blog, you may be asking yourself what you need to “make it” into a rewarding career of climate policy.
+Whether you’re early in your undergraduate career or looking to make a switch from some other industry, today I’m going to walk you through my journey from DC-reject to a full-blown policy professional who’s briefed policymakers from the Hill to New Mexico.
+It took me 4 years and as many major setbacks to finally make it to the climate “room where it happens,” but boy was it worth the wait!</description>
+    </item>
+    
+    <item>
+      <title>Geospatial Data Map: Multimodal Assets</title>
+      <link>https://miguelmoravec.com/en/blog/port_map/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/port_map/</guid>
+      <description>As part of a forthcoming Department of Homeland Security Resilience Guide, I created an interactive map of key multimodal infrastructure assets for major economic centers along the Tennessee and Cumberland Rivers.
+Chattanooga Critical Transportation Infrastructure Click the arrows &amp;raquo; to access the legend  .embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}The map above indicates the location of Chattanooga water way infrastructure, such as public ports and locks, in relation to Class I rail and Primary Roadways (highways).</description>
+    </item>
+    
+    <item>
+      <title>GSC Platform</title>
+      <link>https://miguelmoravec.com/en/blog/gsc/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/gsc/</guid>
+      <description>UPDATE: Thanks for electing me to be your GSC President! Read on to see some of the issues we&amp;rsquo;ll be taking on together next year.
+This page is organized as follows:
+ Platform Summary About Me Priority Agenda Topics  1) Platform Summary Listen First 👂  Invitation to exec meetings and convos with admins Report-outs from 2-3 depts per month Open office hours  Leverage Platform 💪  Collect data from surveys and referandums Pass and distribute data-driven resolutions Broadcast graduate student needs to community and admin  Build Coalitions that Win 📣  Partner with Energetic Grad student orgs Restart relationship with Hustler Student Newspaper Invest in Faculty and Undergraduate Senate Needs  2) About Me I recently spoke with Zach Joseph from the Vanderbilt Hustler about who I am and what I wanted to do in GSC.</description>
+    </item>
+    
+    <item>
+      <title>Data Science Dashboard: Debris Forecast</title>
+      <link>https://miguelmoravec.com/en/blog/nashzero/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/nashzero/</guid>
+      <description>The following interactive dashboard was created for our client, the Metropolitan Government of Nashville, as part of a team Data Science Institute effort. The dashboard forecasts debris permit and tonnage generation under a range of scenarios.
+
+Click &amp;raquo; here &amp;laquo; to launch dashboard Background Metro Nashville has set a goal to be solid landfill neutral by 2050. As a rapidly growing city, one of the major sources of solid waste is through development (i.</description>
+    </item>
+    
+    <item>
+      <title>Climate Activism</title>
+      <link>https://miguelmoravec.com/en/blog/doresdivest/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/doresdivest/</guid>
+      <description>Miguel is the co-founder of Dores Divest, a student activist campaign that made international headlines in February 2022 for filing a novel legal complaints regarding Vanderbilt&amp;rsquo;s fossil fuel investments. Learn more here.
+Articles covering our actions:  Washington Post: Legal Complaint Exclusive CNN: Legal Complaint Coverage Vanderbilt Hustler: Al Gore Endorsement Stanford Daily: Activism Commentary  </description>
+    </item>
+    
+    <item>
+      <title>Graduate Mentor</title>
+      <link>https://miguelmoravec.com/en/blog/stemseas2/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/stemseas2/</guid>
+      <description>As a Vanderbilt undergraduate, Miguel Moravec took part in a research cruise that used multibeam sonar to map areas of the Queen Charlotte Fault off the Southeast Alaskan coast. He and other students also visited Exit Glacier Park and saw first-hand how fast glacier ice had receded over the past 50 years.
+“It was really impactful,” said Moravec, now a Ph.D. student in civil and environmental engineering. “I really wanted to get involved in climate change.</description>
+    </item>
+    
+    <item>
+      <title>NOAA Climate Modeling Work</title>
+      <link>https://miguelmoravec.com/en/blog/princeton/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/princeton/</guid>
+      <description>In 2016, Miguel worked with NOAA scientists to analyze climate data, automatically generate relevant figures/plots, and ultimately contribute science to the North-American Multi-Model Ensemble, as hosted by Princeton University&amp;rsquo;s Department of Atmospheric and Oceanic Sciences.
+Check out this newsletter from Princeton University featuring my work here.
+Automatic Post-Processing Output Examples Sea Surface Temperature Anomaly Sea Surface Temperature RMSE Reference Temperature Anomaly </description>
+    </item>
+    
+    <item>
+      <title>Energy Resilience Research</title>
+      <link>https://miguelmoravec.com/en/blog/pipeline/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/pipeline/</guid>
+      <description>I completed analysis for a study that concluded that cities in middle and eastern Tennessee with access to barged petroleum products suffered less during the May shutdown of the Colonial Pipeline.
+I found a novel relationship between federal waterborne petroleum volumes and crowd sourced Gas buddy station outage data that helped explain how the disruption affected certain southeastern markets.
+My research team and I conducted the research in as part of a case study on resilience strategies for navigable portions and associated infrastructure of the Cumberland/Tennessee river couplet system.</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization</title>
+      <link>https://miguelmoravec.com/en/blog/pipeline-copy/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/pipeline-copy/</guid>
+      <description>A recent study has concluded that cities in middle and eastern Tennessee with access to barged petroleum products suffered less during the May shutdown of the Colonial Pipeline.
+Vanderbilt University conducted the research in as part of a case study on resilience strategies for navigable portions and associated infrastructure of the Cumberland/Tennessee river couplet system.
+Janey Camp and Craig Philip, both research associate professors of civil and environmental engineering and associate director and director of the Vanderbilt Center for Transportational and Operational Resiliency, respectively, are leading the ongoing research.</description>
+    </item>
+    
+    <item>
+      <title>Geospatial Data Map: Real Estate</title>
+      <link>https://miguelmoravec.com/en/blog/thesis/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/thesis/</guid>
+      <description>The following interactive map was created in R using the Shiny App. It dynamically depicts the increases in the mean, median, and normalized sales price per census tract neighborhood.
+Increase in Median Sales Price in Davidson County, 2013-2016 (%) This map was created as part of my senior honor&amp;rsquo;s thesis at Vanderbilt University. For the project, I extracted over 60,000 real estate transactions from the Nashville Property Assesor&amp;rsquo;s office API using python scripts to make a comprehensive record of all sales in Davidson County between 2013 and 2016.</description>
+    </item>
+    
+    <item>
+      <title>FHWA Emissions Rule Public Comment Mapping</title>
+      <link>https://miguelmoravec.com/en/blog/fhwa_map/</link>
+      <pubDate>Thu, 03 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/fhwa_map/</guid>
+      <description>The following interactive map was created in R using the Leaflet App. It dynamically depicts the location of public comments to the proposed FHWA emissions rule. Each &amp;ldquo;pin&amp;rdquo; includes a link to the submitter&amp;rsquo;s comment and information about the comment.
+Note that comments from individuals are not included due to the lack of public address information. This page contains public data and is available by direct link only.</description>
+    </item>
+    
+    <item>
+      <title>PNW Energy Community Mapping</title>
+      <link>https://miguelmoravec.com/en/blog/pnw_map/</link>
+      <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelmoravec.com/en/blog/pnw_map/</guid>
+      <description>The following interactive map was created in R using the Leaflet App. It dynamically depicts which census tract neighborhoods in Washington and Oregon are Energy Communities, Tribal Lands, or considered disadvantaged by White House CJEST or DOE DAC metrics.
+Note the purple areas, which indicates neighborhoods that are both energy communities and considered disadvantaged by the federal government. This page contains public data and is available by direct link only.</description>
+    </item>
+    
+  </channel>
+</rss>

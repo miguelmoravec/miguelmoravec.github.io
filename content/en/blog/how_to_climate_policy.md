@@ -1,7 +1,7 @@
 ---
 author: "Miguel Moravec"
 title: "How to break into Climate Policy"
-date: 2024-07-31
+date: 2024-01-31
 description: "4 steps to pivot your career into environmental change making"
 tags: ["Leadership"] 
 thumbnail: "/com_room2.png"
@@ -54,7 +54,7 @@ While I missed the opportunity to be a change-maker in undergrad, I used graduat
 
 ![Change-making](/grad_protest.jpg) 
 
-Having competency is some of these skills is essential – the best employees to make the world a better place are those with practice!
+Having competency in some of these skills is essential – the best employees to make the world a better place are those with practice!
 
 If you cannot articulate how you personally have strived to win big change in your community, you will have a hard time making it into policy world.
 
@@ -87,20 +87,21 @@ For better or for worse, some schools have a better pipeline into climate policy
 -	John Hopkins University
 -	Stanford University
 -   University of Michigan
--	Colorado State University – Boulder Campus (surprisingly strong program)
+-	University of Colorado Boulder
 
 I realize that gaining acceptance to and paying masters tuition at many of these schools may sound daunting – but recall that:
 
 1.	graduate admissions are much less selective than undergraduate admissions
 2.	there are ways to get grad school paid for: 
-	-	“mastering out” of a paid doctoral program
+
 	-	teaching or research assistantships
+	-	“mastering out” of a paid doctoral program
 	-	employer tuition assistance programs
 	-	Moving for in-state tuition
 
 If you’re not in a position to attend graduate school right now, another strategy to consider is getting “blue chip” experience in a job that’s adjacent to the climate policy industry. 
 
-This could be consulting, a fortune 500 company, government, or even local advocacy experience.
+This could be consulting, a Fortune 500 company, government, or even local advocacy experience.
 
 I was fortunate enough to land a job as a science communicator with the US EPA thanks to an free early government career placement website called Zintellect. You should absolutely upload your resume here if you’re interested in learning how agencies execute the policies that they’re given by Congress. It’s free to apply, and you will stand out in an interview pool with any three letter agency on your resume.
 
@@ -119,7 +120,7 @@ If you think you’d like to lean a little more into data-driven change-making, 
 
 -	RMI (where I work)
 -	WRI
--	ACEE
+-	ACEEE
 -	CSIS
 
 Obviously, I’ll reiterate that the federal government is a great place to work and get experience too, but unless you’re a lawyer, early in your career you’ll be more of a cog in the hierarchical machine and less empowered to lead change. 

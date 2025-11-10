@@ -7,34 +7,34 @@ DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
-    contentDir = "content/en" 
+    contentDir = "content/en" #English
     weight = 1
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Miguel Moravec"
-      introSubtitle = "Senior Associate, RMI | Climate & Transportation Policy"
+      introSubtitle = "Senior Associate, RMI <br> Clean Energy & Transportation Policy"
       introPhoto = "/chair_cropped.JPG"
       logo = "/miguel_logo2.png"
 
-    [[languages.en.menu.main]]
-        name = "Blog"
-        url = "/blog"
-        weight = 1
-		
-    [[languages.en.menu.main]]
-        name = "About"
-        url = "page/about/"
-		weight = 2
 		
 	[[languages.en.menu.main]]
         name = "Resume"
         url = "Moravec Resume 2025.pdf"
         weight = 3
 
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+		weight = 1
 
 
 
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "/blog"
+        weight = 3
 
+  
 
  
 
@@ -69,7 +69,7 @@ DefaultContentLanguageInSubdir = true
 
 [[menu.main]]
   name = "About"
-  url = "/about"
+  url = "/blog"
 
 [build]
   writeStats = true

@@ -3,7 +3,7 @@ author: "Miguel Moravec"
 title: "Induced Demand Dashboard Demo"
 description: "Drafting the next great induced demand calculator for better transportation planning"
 tags: ["Leadership"]
-date: 2025-01-25
+date: 2024-12-30
 thumbnail: "/aiai.png"
 ---
 
