@@ -17,10 +17,6 @@ DefaultContentLanguageInSubdir = true
       logo = "/miguel_logo2.png"
 
 		
-	[[languages.en.menu.main]]
-        name = "Resume"
-        url = "Moravec Resume 2025.pdf"
-        weight = 3
 
     [[languages.en.menu.main]]
         name = "About"
